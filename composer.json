@@ -1,0 +1,22 @@
+{
+    "name": "auxfinumva/umvapayment",
+    "description": "The payment gateway of UMVA for the php developers",
+    "autoload": {
+        "psr-4": {
+            "AuxfinUmva\\Umvapayment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Auxfin"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+          "providers": [
+            "AuxfinUmva\\UMVAPaymentServiceProvider"
+          ]
+        }
+      }
+}
