@@ -12,6 +12,7 @@
         }
     ],
     "require": {},
+    "license": "proprietary",
     "extra": {
         "laravel": {
           "providers": [
